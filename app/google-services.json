@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "454075048723",
+    "firebase_url": "https://medicalanalysismsrit.firebaseio.com",
+    "project_id": "medicalanalysismsrit",
+    "storage_bucket": "medicalanalysismsrit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454075048723:android:a9be16f43c41a8f7",
+        "android_client_info": {
+          "package_name": "medicalapp1.msrit.mohith.medicalappmsrit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454075048723-sim4kusafjlo7c7klt29p6iphs8a4etl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "medicalapp1.msrit.mohith.medicalappmsrit",
+            "certificate_hash": "4122b8dbf60378d4817c8fc0e0b7bcf73ad5365c"
+          }
+        },
+        {
+          "client_id": "454075048723-i7ok80j1s2c0pgipttdqj99aosk3nlpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbS4Ly3oVLhwEWrbh_qdCzROOHcuXdSgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454075048723-i7ok80j1s2c0pgipttdqj99aosk3nlpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

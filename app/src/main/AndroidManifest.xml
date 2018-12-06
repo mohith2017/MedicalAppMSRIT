@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="medicalapp1.msrit.mohith.medicalappmsrit">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_medical"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prequestionaire"
+            android:label="Attitude" />
+        <activity
+            android:name=".Attitudepages.Attitude1"
+            android:label="Attitude1" />
+        <activity android:name=".Attitudepages.Instructionsattitude" />
+        <activity android:name=".Knowledge1pages.Instructionsknowledge" />
+        <activity android:name=".SelectMCQ" />
+        <activity android:name=".Knowledge2pages.Instuctionsknowledge1" />
+        <activity android:name=".Knowledge" />
+        <activity android:name=".Knowledge2" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Attitudepages.Attitude2" />
+        <activity android:name=".Attitudepages.Attitude3" />
+        <activity android:name=".Attitudepages.Attitude4" />
+        <activity android:name=".Attitudepages.Attitude5" />
+        <activity android:name=".Attitudepages.Attitude6" />
+        <activity android:name=".Attitudepages.Attitude7" />
+        <activity android:name=".Attitudepages.Attitude8" />
+        <activity android:name=".Attitudepages.Attitude9" />
+        <activity android:name=".Attitudepages.Attitude10" />
+        <activity android:name=".Attitudepages.Attitude11" />
+        <activity android:name=".Attitudepages.Attitude12" />
+        <activity android:name=".Attitudepages.Attitude13" />
+        <activity android:name=".Attitudepages.Attitude14" />
+        <activity android:name=".Attitudepages.Attitude15" />
+        <activity android:name=".Attitudepages.Attitude16" />
+        <activity android:name=".Attitudepages.Attitude17" />
+        <activity android:name=".Attitudepages.Attitude18" />
+        <activity android:name=".Attitudepages.Attitude19" />
+        <activity android:name=".Attitudepages.Attitude20" />
+        <activity android:name=".Knowledgex" />
+        <activity android:name=".Prequestionaire2" />
+        <activity android:name=".Knowledge2pages.Knowledgekb1" />
+        <activity android:name=".Knowledge2pages.Knowledgekb2" />
+        <activity android:name=".Knowledge2pages.Knowledgekb3" />
+        <activity android:name=".Knowledge2pages.Knowledgekb4" />
+        <activity android:name=".Knowledge2pages.Knowledgekb5" />
+        <activity android:name=".Knowledge6" />
+        <activity android:name=".Knowledge2pages.Knowledgekb6" />
+        <activity android:name=".Knowledge2pages.Knowledgekb7" />
+        <activity android:name=".Knowledge2pages.Knowledgekb8" />
+        <activity android:name=".Knowledge2pages.Knowledgekb9" />
+        <activity android:name=".Knowledge2pages.Knowledgekb10" />
+        <activity android:name=".Knowledge2pages.Knowledgekb11" />
+        <activity android:name=".Knowledge2pages.Knowledgekb12" />
+        <activity android:name=".Knowledge2pages.Knowledge13" />
+        <activity android:name=".Knowledge2pages.Knowledgekb13" />
+        <activity android:name=".Knowledge2pages.Knowledgekb14" />
+        <activity android:name=".Knowledge2pages.Knowledgekb15" />
+        <activity android:name=".Knowledge2pages.Knowledgekb16" />
+        <activity android:name=".Knowledge2pages.Knowledgekb17" />
+        <activity android:name=".Knowledge2pages.Knowledgekb18" />
+        <activity android:name=".Knowledge1pages.Knowledgeka1" />
+        <activity android:name=".Knowledge1pages.Knowledgeka2" />
+        <activity android:name=".Knowledge1pages.Knowledgeka3" />
+        <activity android:name=".Knowledge1pages.Knowledgeka4" />
+        <activity android:name=".Knowledge1pages.Knowledgeka5" />
+        <activity android:name=".Knowledge1pages.Knowledgeka6" />
+        <activity android:name=".Knowledge1pages.Knowledgeka7"></activity>
+    </application>
+
+</manifest>

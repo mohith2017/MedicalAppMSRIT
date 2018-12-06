@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Knowledge1pages.Knowledgeka3"
+    android:background="@mipmap/blackbgapp">
+
+    <TextView
+        android:id="@+id/textViewka3"
+        android:layout_width="333dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Composition of the family would reveal the following information"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxka3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox1ka2"
+        android:layout_marginTop="201dp"
+        android:text="Family size"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1ka3"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Child rearing practices"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2ka3"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:text="Type of family"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3ka3"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:text="Attitude of the family"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonka3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Next" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Knowledgex"
+    android:background="@mipmap/blackbgapp">
+
+    <TextView
+        android:id="@+id/textViewka"
+        android:layout_width="333dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="The following statement about social mapping are true: "
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_marginTop="202dp"
+        android:text="Community spirit could be generated "
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1ka"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Quick understanding of the village infrastructure is possible"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2ka"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:text="It helps us in identifying various issues in village that needs more reflection"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3ka"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_marginBottom="111dp"
+        android:text="Gives complete information about village infrastructure and need not be complemented with other tools"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+</RelativeLayout>
